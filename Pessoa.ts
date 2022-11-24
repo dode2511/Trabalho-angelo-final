@@ -1,7 +1,7 @@
 
 export  abstract class Pessoa {
     constructor(
-        protected _nome: string,
+        public _nome: string,
         protected _inteligencia: number,
         protected _energiaAtual: number,
         protected _energiaMaxima: number
@@ -9,7 +9,7 @@ export  abstract class Pessoa {
       
   public abstract estudar(): void;
 
-  public abstract procrastinar(): void;
+
 
 
 

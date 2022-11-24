@@ -24,7 +24,7 @@ export class Aluno extends Pessoa{
         this._shape = this._shape * 0.7
         this._energiaAtual =  this._energiaAtual *  0.8 
     }else{
-        return console.log(`ERRO Nao Ha energia suficiente`);
+         console.log(`ERRO Nao Há energia suficiente`);
         
     }
     }
@@ -46,7 +46,7 @@ export class Aluno extends Pessoa{
         this._inteligencia = this._inteligencia * 0.8
         this._energiaAtual = this._energiaAtual * 0.7
     }else{
-        return console.log(`ERRO Nao Ha energia suficiente`);
+         console.log(`ERRO Nao Há energia suficiente`);
         
     }
       }
